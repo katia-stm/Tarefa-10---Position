@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    background-color: lightgrey;
+    padding: 15px;
+    width: 600px;
+    height: 600px;
+}
+
+.esquerda {
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    position: relative;
+    color: black;
+}
+
+.direita {
+    height: 100%;
+    width: 40%;
+    position: relative;
+    color: black;
+    text-align:left;
+    margin-left: 30px;
+}
+
+.titulo {
+    background-color: lightgray;
+    position: relative;
+    width: 320px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 25px;
+    left: 50%;
+    margin: -25px 0 0 -75px;  
+}
+
+img {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 280px;
+    height: 520px;
+}
+
